@@ -12,4 +12,18 @@ pub fn run() {
     );
 
     // Named arguments
+    println!(
+        "{name} likes to play {activity}",
+        name = "Matt",
+        activity = "baseball"
+    );
+
+    // Placeholder traits
+    println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
+
+    // Placeholder for debug trait (tuple)
+    println!("{:?}", (12, true, "Hello"));
+
+    // Basic math
+    println!("10 + 10 = {}", 10 + 10);
 }
